@@ -1,0 +1,42 @@
+.all {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    margin: 1rem 7rem;
+    justify-content: center;
+    align-items: center;
+    background-color: #7071E8;
+    color: whitesmoke;
+    border-radius: 1rem;
+}
+
+.all Form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.7rem;
+    justify-content: center;
+    align-items: center;
+}
+button {
+    border-radius: 5px;
+    background-color: #FF4B91;
+    border: 3px dashed #F875AA;
+    padding: 1rem;
+    cursor: pointer;
+    color: #EEF5FF;
+    font-size: large;
+}
+
+h1 {
+    color: #A25772;
+}
+
+input {
+    padding: 1rem;
+    border-radius: 15px;
+    border: 3px dotted #39A7FF;
+    background-color: #E0F4FF;
+    outline-color: #F3F3F3;
+    width: 45vw;
+}

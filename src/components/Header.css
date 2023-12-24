@@ -1,0 +1,31 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.5rem;
+    padding: 1rem 2rem;
+    background-color: #38419D;
+}
+
+.header span {
+    color: #F6F7C4;
+    letter-spacing: 4;
+}
+
+.header_nav {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.header_nav a {
+    text-decoration: none;
+    color: #FFF7D4;
+}
+
+.header_nav .active {
+    color: #FF90BC;
+    border-bottom: 2px solid #FFC0D9;
+}
